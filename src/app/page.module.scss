@@ -56,13 +56,13 @@
 
   .bottom {
     width: 100vw;
-    background-color: red;
     height: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
     position: fixed;
     bottom: 0;
+    background-color: #efeff0;
 
     .left a,
     .right a {
@@ -70,6 +70,11 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      text-decoration: none;
+
+      h1 {
+        font-size: 12px;
+      }
     }
   }
 }
