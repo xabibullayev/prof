@@ -5,9 +5,8 @@ import Bottom from "@/components/bottom/Bottom";
 export default function ProfInsHome() {
   return (
     <>
+      <Top />
       <div className={styles.profInsHome}>
-        <Top />
-
         <div className={styles.info}>
           <div>
             <h1>Tapsirmalar:</h1>
