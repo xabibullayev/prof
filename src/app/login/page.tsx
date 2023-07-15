@@ -7,7 +7,7 @@ export default function Login() {
   return (
     <div className={styles.login}>
       <div className={styles.container}>
-        <h1>Xosh keldin'iz!</h1>
+        <h1>Xosh keldin&apos;iz!</h1>
         <form>
           <div className={styles.input}>
             <span>
