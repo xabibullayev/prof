@@ -1,5 +1,5 @@
 .home {
-  width: 100vw;
+  width: 100%;
 
   .top {
     height: 90vh;
@@ -54,30 +54,6 @@
             }
           }
         }
-      }
-    }
-  }
-
-  .bottom {
-    width: 100vw;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: fixed;
-    bottom: 0;
-    background-color: #efeff0;
-
-    .left a,
-    .right a {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-decoration: none;
-
-      h1 {
-        font-size: 12px;
       }
     }
   }

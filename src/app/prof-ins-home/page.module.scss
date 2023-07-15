@@ -1,0 +1,71 @@
+.profInsHome {
+  width: 100%;
+  padding: 20px;
+
+  .info {
+    padding: 20px;
+    border-radius: 10.667px;
+    border: 0.5px solid rgba(0, 0, 0, 0.15);
+    background: #fff;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 4px 4px 10px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 10px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 10px 0px rgba(34, 60, 80, 0.2);
+
+    div {
+      display: flex;
+      gap: 20px;
+
+      h1 {
+        font-size: 12px;
+        font-weight: 500;
+      }
+
+      span {
+        font-size: 12px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .list {
+    .items {
+      display: flex;
+      gap: 20px;
+
+      .item {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        padding: 20px;
+        border-radius: 10.667px;
+        border: 0.5px solid rgba(0, 0, 0, 0.15);
+        background: #fff;
+        margin-bottom: 20px;
+        position: relative;
+        -webkit-box-shadow: 4px 4px 10px 0px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 4px 4px 10px 0px rgba(34, 60, 80, 0.2);
+        box-shadow: 4px 4px 10px 0px rgba(34, 60, 80, 0.2);
+
+        h1 {
+          font-size: 12px;
+          font-weight: 500;
+        }
+
+        .badge {
+          position: absolute;
+          top: 20px;
+          right: 20px;
+          background-color: red;
+          color: white;
+          border-radius: 50%;
+          padding: 5px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

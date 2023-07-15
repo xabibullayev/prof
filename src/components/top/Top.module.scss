@@ -1,0 +1,15 @@
+.top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+  div {
+    background-color: #efeff0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

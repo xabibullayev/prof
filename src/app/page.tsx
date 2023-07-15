@@ -1,7 +1,7 @@
 import styles from "./page.module.scss";
-import HomeIcon from "@mui/icons-material/Home";
-import PersonIcon from "@mui/icons-material/Person";
+
 import Link from "next/link";
+import Bottom from "@/components/bottom/Bottom";
 
 export default function Home() {
   return (
@@ -37,24 +37,6 @@ export default function Home() {
               </Link>
             </div>
           </div>
-        </div>
-      </div>
-      <div className={styles.bottom}>
-        <div className={styles.left}>
-          <Link href="/">
-            <span>
-              <HomeIcon />
-            </span>
-            <h1>Home</h1>
-          </Link>
-        </div>
-        <div className={styles.right}>
-          <Link href="/">
-            <span>
-              <PersonIcon />
-            </span>
-            <h1>Profile</h1>
-          </Link>
         </div>
       </div>
     </div>
