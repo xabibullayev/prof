@@ -55,12 +55,14 @@
   }
 
   .bottom {
+    width: 100vw;
     background-color: red;
     height: 10vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 50px;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
 
     .left a,
     .right a {
