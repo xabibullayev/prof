@@ -1,6 +1,9 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import axios from "axios";
+
+axios.defaults.withCredentials = true;
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -39,7 +39,7 @@ export default function ProfInsHome() {
                   stroke-miterlimit="10"
                 />
               </svg>
-              <h1>Bayanlama</h1>
+              <h1>Shaqiriwlar</h1>
               <span className={styles.badge}>10</span>
             </div>
           </div>
@@ -47,12 +47,12 @@ export default function ProfInsHome() {
           <div className={styles.items}>
             <div className={styles.item}>
               <img src="/images/prof-ins-home/img-3.png" alt="" />
-              <h1>Bayanlama</h1>
+              <h1>Tapsirmalar</h1>
               <span className={styles.badge}>10</span>
             </div>
             <div className={styles.item}>
               <img src="/images/prof-ins-home/img-4.png" alt="" />
-              <h1>Bayanlama</h1>
+              <h1>Profilaktikaliq jumislar</h1>
               <span className={styles.badge}>10</span>
             </div>
           </div>
@@ -60,23 +60,23 @@ export default function ProfInsHome() {
           <div className={styles.items}>
             <div className={styles.item}>
               <img src="/images/prof-ins-home/img-5.png" alt="" />
-              <h1>Bayanlama</h1>
+              <h1>Materiallar</h1>
               <span className={styles.badge}>10</span>
             </div>
             <div className={styles.item}>
               <img src="/images/prof-ins-home/img-6.png" alt="" />
-              <h1>Bayanlama</h1>
+              <h1>Order</h1>
             </div>
           </div>
 
           <div className={styles.items}>
             <div className={styles.item}>
               <img src="/images/prof-ins-home/img-7.png" alt="" />
-              <h1>Bayanlama</h1>
+              <h1>Xojaliq u'yreniw</h1>
             </div>
             <div className={styles.item}>
               <img src="/images/prof-ins-home/img-8.png" alt="" />
-              <h1>Bayanlama</h1>
+              <h1>Usinislar</h1>
             </div>
           </div>
         </div>
